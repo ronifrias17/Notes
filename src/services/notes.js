@@ -1,6 +1,8 @@
 import axios from 'axios'
 const baseUrl = 'https://backend-notes-x7r0.onrender.com/api/notes'
 
+//Corregido
+
 const getAll = () => {
     const request = axios.get(baseUrl)
     return request.then(response => response.data)
